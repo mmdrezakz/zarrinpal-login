@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "iranBold";
+    font-weight: bold;
+    font-display: swap;
+    src: url(/Font/Iranintl-Bold.ttf);
+  }
+  @font-face {
+    font-family: "iran";
+    font-weight: medium;
+    font-display: swap;
+    src: url(/Font/Iranintl-Medium.ttf);
+  }
+}
